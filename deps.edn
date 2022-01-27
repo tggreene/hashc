@@ -1,5 +1,6 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        zprint/zprint {:mvn/version "0.5.4"}}
  :aliases
  {:test {:extra-paths ["test"]}
   :release
