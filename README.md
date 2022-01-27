@@ -26,21 +26,21 @@ if available (automatically added by shadow-cljs) to print the resulting value.
 
 It doesn't currently print output to stdout, only to the browser console.
 
-## Installing
+<!-- ## Installing -->
 
-You can add it with shadow-cljs dependencies as below:
+<!-- You can add it with shadow-cljs dependencies as below: -->
 
-    {:dependencies [hashp "0.2.1"]
-     :builds {:app {:devtools {:preloads [hashp.core]}}}}
+<!--     {:dependencies [.../hashc "0.0.1"] -->
+<!--      :builds {:app {:devtools {:preloads [hashc.core]}}}} -->
 
-Or alternatively via ~/.shadow-cljs/config.edn and --config-merge:
+<!-- Or alternatively via ~/.shadow-cljs/config.edn and --config-merge: -->
 
-    ~/.shadow-cljs/config.edn:
+<!--     ~/.shadow-cljs/config.edn: -->
 
-{:dependencies [[hashp "0.2.1"]]}
-Run:
+<!-- {:dependencies [[.../hashc "0.0.1"]]} -->
+<!-- Run: -->
 
-shadow-cljs watch app --config-merge '{:devtools {:preloads [hashp.core]}}'
+<!-- shadow-cljs watch app --config-merge '{:devtools {:preloads [hashc.core]}}' -->
 
-If you use deps with shadow-cljs you'll likely need to add it to the project
-deps or to your home directory deps as an alias.
+<!-- If you use deps with shadow-cljs you'll likely need to add it to the project -->
+<!-- deps or to your home directory deps as an alias. -->
