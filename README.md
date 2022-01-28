@@ -18,8 +18,8 @@ Evaluating the form:
 
 Browser console:
 
-    #c[example.core/mean::2] (reduce + xs) => 45
-    #c[example.core/mean::2] (count xs) => 10
+    #c[example.core/mean::4] (reduce + xs) => 45
+    #c[example.core/mean::4] (count xs) => 10
 
 The primary difference being that the output will use cljs devtools formatters
 if available (automatically added by shadow-cljs) to print the resulting value.
