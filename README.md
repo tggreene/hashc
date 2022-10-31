@@ -1,5 +1,7 @@
 # hashc
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.tggreene/hashc.svg)](https://clojars.org/com.github.tggreene/hashc)
+
 Shameless plaigarism of [hashp](https://github.com/weavejester/hashp) for
 console.log in cljs:
 
